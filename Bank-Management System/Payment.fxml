@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Payment">
+   <children>
+      <TextField fx:id="amount" layoutX="450.0" layoutY="206.0" prefHeight="52.0" prefWidth="362.0" promptText="credit">
+         <font>
+            <Font size="25.0" />
+         </font></TextField>
+      <TextField fx:id="number" layoutX="451.0" layoutY="136.0" prefHeight="52.0" prefWidth="362.0" promptText="marchent e-bank number">
+         <font>
+            <Font size="25.0" />
+         </font></TextField>
+      <TextField fx:id="password" layoutX="450.0" layoutY="279.0" prefHeight="52.0" prefWidth="362.0" promptText="password">
+         <font>
+            <Font size="25.0" />
+         </font></TextField>
+      <Button layoutX="674.0" layoutY="416.0" mnemonicParsing="false" onAction="#payment" prefHeight="48.0" prefWidth="137.0" text="Payment" />
+      <Button layoutX="22.0" layoutY="25.0" mnemonicParsing="false" onAction="#back" prefHeight="48.0" prefWidth="138.0" text="Back" />
+      <Label fx:id="comment" alignment="CENTER" layoutX="451.0" layoutY="355.0" prefHeight="36.0" prefWidth="362.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

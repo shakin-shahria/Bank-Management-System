@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.SendMoney">
+   <children>
+      <TextField fx:id="number" layoutX="450.0" layoutY="140.0" prefHeight="50.0" prefWidth="362.0" promptText="e-bank number">
+         <font>
+            <Font size="25.0" />
+         </font></TextField>
+      <TextField fx:id="amount" layoutX="450.0" layoutY="227.0" prefHeight="52.0" prefWidth="362.0" promptText="credit">
+         <font>
+            <Font size="25.0" />
+         </font></TextField>
+      <TextField fx:id="password" layoutX="450.0" layoutY="322.0" prefHeight="52.0" prefWidth="362.0" promptText="password">
+         <font>
+            <Font size="25.0" />
+         </font></TextField>
+      <Button layoutX="665.0" layoutY="459.0" mnemonicParsing="false" onAction="#send" prefHeight="50.0" prefWidth="146.0" text="Send" />
+      <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#back" prefHeight="50.0" prefWidth="146.0" text="Back" />
+      <Label fx:id="comment" alignment="CENTER" layoutX="450.0" layoutY="398.0" prefHeight="30.0" prefWidth="362.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
